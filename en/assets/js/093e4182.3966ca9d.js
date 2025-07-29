@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrank_quant=self.webpackChunkfrank_quant||[]).push([[6505],{8520:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/quant-website/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

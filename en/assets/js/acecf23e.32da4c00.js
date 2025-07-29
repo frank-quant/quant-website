@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrank_quant=self.webpackChunkfrank_quant||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/quant-website/en/blog","blogTitle":"Blog","authorsListPath":"/quant-website/en/blog/authors"}')}}]);

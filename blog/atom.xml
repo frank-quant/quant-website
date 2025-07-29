@@ -1,31 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frank-quant.github.io/quant-website/blog</id>
-    <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <title>Frank Quant Blog</title>
+    <updated>2024-12-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frank-quant.github.io/quant-website/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Frank Quant Blog</subtitle>
     <icon>https://frank-quant.github.io/quant-website/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[欢迎来到 Frank Quant]]></title>
+        <id>https://frank-quant.github.io/quant-website/blog/welcome</id>
+        <link href="https://frank-quant.github.io/quant-website/blog/welcome"/>
+        <updated>2024-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大家好！我是 Frank，很高兴在这里与大家见面。经过几个月的准备，我的量化交易网站终于正式上线了！]]></summary>
+        <content type="html"><![CDATA[<p>大家好！我是 Frank，很高兴在这里与大家见面。经过几个月的准备，我的量化交易网站终于正式上线了！</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于这个网站">关于这个网站<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99" class="hash-link" aria-label="关于这个网站的直接链接" title="关于这个网站的直接链接">​</a></h2>
+<p>这个网站是我分享量化交易知识、经验和实盘记录的地方。我希望通过这个平台：</p>
+<ul>
+<li><strong>分享学习心得</strong>：记录我在量化交易学习过程中的心得体会</li>
+<li><strong>提供实用工具</strong>：分享一些实用的代码和脚本</li>
+<li><strong>记录实盘交易</strong>：公开我的实盘交易记录和绩效分析</li>
+<li><strong>推荐优质资源</strong>：分享我认为有价值的书籍和资料</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="网站结构">网站结构<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E7%BD%91%E7%AB%99%E7%BB%93%E6%9E%84" class="hash-link" aria-label="网站结构的直接链接" title="网站结构的直接链接">​</a></h2>
+<p>网站主要分为以下几个部分：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-教程">📚 教程<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E6%95%99%E7%A8%8B" class="hash-link" aria-label="📚 教程的直接链接" title="📚 教程的直接链接">​</a></h3>
+<p>从零开始学习量化交易，包括：</p>
+<ul>
+<li>量化交易基础</li>
+<li>策略开发</li>
+<li>回测技巧</li>
+<li>工具配置</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-工具">🛠️ 工具<a href="https://frank-quant.github.io/quant-website/blog/welcome#%EF%B8%8F-%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="🛠️ 工具的直接链接" title="🛠️ 工具的直接链接">​</a></h3>
+<p>实用的量化交易工具：</p>
+<ul>
+<li>代码库</li>
+<li>脚本集合</li>
+<li>平台使用指南</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-实盘记录">📊 实盘记录<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E5%AE%9E%E7%9B%98%E8%AE%B0%E5%BD%95" class="hash-link" aria-label="📊 实盘记录的直接链接" title="📊 实盘记录的直接链接">​</a></h3>
+<p>详细的交易记录：</p>
+<ul>
+<li>2024年实盘记录</li>
+<li>2025年实盘记录</li>
+<li>月报汇总</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-书籍推荐">📖 书籍推荐<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90" class="hash-link" aria-label="📖 书籍推荐的直接链接" title="📖 书籍推荐的直接链接">​</a></h3>
+<p>精选的量化交易书籍：</p>
+<ul>
+<li>推荐书单</li>
+<li>读书笔记</li>
+<li>资源下载</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="我的背景">我的背景<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E6%88%91%E7%9A%84%E8%83%8C%E6%99%AF" class="hash-link" aria-label="我的背景的直接链接" title="我的背景的直接链接">​</a></h2>
+<p>我是一名量化交易爱好者，有金融工程和计算机科学的背景。在过去几年里，我一直在学习和实践量化交易，也积累了一些经验和教训。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="交易理念">交易理念<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E4%BA%A4%E6%98%93%E7%90%86%E5%BF%B5" class="hash-link" aria-label="交易理念的直接链接" title="交易理念的直接链接">​</a></h2>
+<p>我的交易理念可以总结为以下几点：</p>
+<ol>
+<li><strong>数据驱动</strong>：基于客观数据和统计分析做决策</li>
+<li><strong>风险优先</strong>：严格控制风险，保护资本</li>
+<li><strong>持续学习</strong>：不断优化策略和模型</li>
+<li><strong>长期思维</strong>：关注长期稳定收益</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="免责声明">免责声明<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E" class="hash-link" aria-label="免责声明的直接链接" title="免责声明的直接链接">​</a></h2>
+<p>重要提醒：</p>
+<ul>
+<li>本网站内容仅供学习和参考</li>
+<li>不构成投资建议或推荐</li>
+<li>量化交易存在风险，请谨慎投资</li>
+<li>过去的表现不代表未来的收益</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="联系方式">联系方式<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="联系方式的直接链接" title="联系方式的直接链接">​</a></h2>
+<p>欢迎与我交流：</p>
+<ul>
+<li><strong>GitHub</strong>：<a href="https://github.com/frank-quant" target="_blank" rel="noopener noreferrer">frank-quant</a></li>
+<li><strong>邮箱</strong>：<a href="mailto:contact@frank-quant.com" target="_blank" rel="noopener noreferrer">contact@frank-quant.com</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步">下一步<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="下一步的直接链接" title="下一步的直接链接">​</a></h2>
+<p>接下来我会陆续发布更多内容：</p>
+<ul>
+<li>详细的教程文章</li>
+<li>实用的代码示例</li>
+<li>实盘交易记录</li>
+<li>书籍推荐和读书笔记</li>
+</ul>
+<p>感谢大家的关注！希望这个网站能够对您的量化交易学习有所帮助。</p>
+<hr>
+<p><em>Frank</em><br>
+<em>2024年12月1日</em></p>]]></content>
+        <author>
+            <name>Frank Quant</name>
+            <uri>https://github.com/frank-quant</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://frank-quant.github.io/quant-website/blog/welcome</id>
         <link href="https://frank-quant.github.io/quant-website/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <content type="html"><![CDATA[<p>大家好！我是 Frank，很高兴在这里与大家见面。经过几个月的准备，我的量化交易网站终于正式上线了！</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于这个网站">关于这个网站<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99" class="hash-link" aria-label="关于这个网站的直接链接" title="关于这个网站的直接链接">​</a></h2>
+<p>这个网站是我分享量化交易知识、经验和实盘记录的地方。我希望通过这个平台：</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li><strong>分享学习心得</strong>：记录我在量化交易学习过程中的心得体会</li>
+<li><strong>提供实用工具</strong>：分享一些实用的代码和脚本</li>
+<li><strong>记录实盘交易</strong>：公开我的实盘交易记录和绩效分析</li>
+<li><strong>推荐优质资源</strong>：分享我认为有价值的书籍和资料</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://frank-quant.github.io/quant-website/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="网站结构">网站结构<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E7%BD%91%E7%AB%99%E7%BB%93%E6%9E%84" class="hash-link" aria-label="网站结构的直接链接" title="网站结构的直接链接">​</a></h2>
+<p>网站主要分为以下几个部分：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-教程">📚 教程<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E6%95%99%E7%A8%8B" class="hash-link" aria-label="📚 教程的直接链接" title="📚 教程的直接链接">​</a></h3>
+<p>从零开始学习量化交易，包括：</p>
+<ul>
+<li>量化交易基础</li>
+<li>策略开发</li>
+<li>回测技巧</li>
+<li>工具配置</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-工具">🛠️ 工具<a href="https://frank-quant.github.io/quant-website/blog/welcome#%EF%B8%8F-%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="🛠️ 工具的直接链接" title="🛠️ 工具的直接链接">​</a></h3>
+<p>实用的量化交易工具：</p>
+<ul>
+<li>代码库</li>
+<li>脚本集合</li>
+<li>平台使用指南</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-实盘记录">📊 实盘记录<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E5%AE%9E%E7%9B%98%E8%AE%B0%E5%BD%95" class="hash-link" aria-label="📊 实盘记录的直接链接" title="📊 实盘记录的直接链接">​</a></h3>
+<p>详细的交易记录：</p>
+<ul>
+<li>2024年实盘记录</li>
+<li>2025年实盘记录</li>
+<li>月报汇总</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-书籍推荐">📖 书籍推荐<a href="https://frank-quant.github.io/quant-website/blog/welcome#-%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90" class="hash-link" aria-label="📖 书籍推荐的直接链接" title="📖 书籍推荐的直接链接">​</a></h3>
+<p>精选的量化交易书籍：</p>
+<ul>
+<li>推荐书单</li>
+<li>读书笔记</li>
+<li>资源下载</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="我的背景">我的背景<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E6%88%91%E7%9A%84%E8%83%8C%E6%99%AF" class="hash-link" aria-label="我的背景的直接链接" title="我的背景的直接链接">​</a></h2>
+<p>我是一名量化交易爱好者，有金融工程和计算机科学的背景。在过去几年里，我一直在学习和实践量化交易，也积累了一些经验和教训。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="交易理念">交易理念<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E4%BA%A4%E6%98%93%E7%90%86%E5%BF%B5" class="hash-link" aria-label="交易理念的直接链接" title="交易理念的直接链接">​</a></h2>
+<p>我的交易理念可以总结为以下几点：</p>
+<ol>
+<li><strong>数据驱动</strong>：基于客观数据和统计分析做决策</li>
+<li><strong>风险优先</strong>：严格控制风险，保护资本</li>
+<li><strong>持续学习</strong>：不断优化策略和模型</li>
+<li><strong>长期思维</strong>：关注长期稳定收益</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="免责声明">免责声明<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E" class="hash-link" aria-label="免责声明的直接链接" title="免责声明的直接链接">​</a></h2>
+<p>重要提醒：</p>
+<ul>
+<li>本网站内容仅供学习和参考</li>
+<li>不构成投资建议或推荐</li>
+<li>量化交易存在风险，请谨慎投资</li>
+<li>过去的表现不代表未来的收益</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="联系方式">联系方式<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="联系方式的直接链接" title="联系方式的直接链接">​</a></h2>
+<p>欢迎与我交流：</p>
+<ul>
+<li><strong>GitHub</strong>：<a href="https://github.com/frank-quant" target="_blank" rel="noopener noreferrer">frank-quant</a></li>
+<li><strong>邮箱</strong>：<a href="mailto:contact@frank-quant.com" target="_blank" rel="noopener noreferrer">contact@frank-quant.com</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步">下一步<a href="https://frank-quant.github.io/quant-website/blog/welcome#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="下一步的直接链接" title="下一步的直接链接">​</a></h2>
+<p>接下来我会陆续发布更多内容：</p>
+<ul>
+<li>详细的教程文章</li>
+<li>实用的代码示例</li>
+<li>实盘交易记录</li>
+<li>书籍推荐和读书笔记</li>
+</ul>
+<p>感谢大家的关注！希望这个网站能够对您的量化交易学习有所帮助。</p>
+<hr>
+<p><em>Frank</em><br>
+<em>2024年12月1日</em></p>]]></content>
         <author>
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
@@ -45,7 +197,7 @@
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
 <!-- -->
 <p>For example, use JSX to create an interactive button:</p>
 <div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
