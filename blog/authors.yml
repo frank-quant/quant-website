@@ -1,0 +1,10 @@
+frank:
+  name: Frank Quant
+  title: 量化交易研究员
+  url: https://github.com/frank-quant
+  image_url: https://github.com/frank-quant.png
+  page: true
+  socials:
+    github: frank-quant
+    x: frank_quant
+    linkedin: frank-quant

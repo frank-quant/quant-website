@@ -1,0 +1,9 @@
+{
+  "label": "n8n+链上数据监控",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "tutorial/n8n-onchain-monitoring/intro"
+  }
+}
+

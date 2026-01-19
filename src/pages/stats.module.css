@@ -1,0 +1,216 @@
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem;
+}
+
+/* 统计卡片图标 */
+.statIcon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.statNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* 每日趋势图表 */
+.dailyChart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dailyItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dailyDate {
+  min-width: 80px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.dailyBarContainer {
+  flex: 1;
+  height: 28px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dailyBar {
+  height: 100%;
+  background: var(--ifm-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  transition: width 0.3s ease;
+}
+
+.dailyValue {
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* 热门页面列表 */
+.pageList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pageItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.pageItem:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.pageRank {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-right: 0.75rem;
+}
+
+.pageName {
+  flex: 1;
+  font-weight: 500;
+}
+
+.pageVisits {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* 地区分布列表 */
+.regionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.regionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.regionItem:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.regionRank {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-right: 0.75rem;
+}
+
+.regionName {
+  flex: 1;
+  font-weight: 500;
+}
+
+.regionCount {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.emptyText {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  padding: 2rem 0;
+  margin: 0;
+}
+
+/* 访问历史列表 */
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.historyItem:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.historyPage {
+  font-weight: 500;
+}
+
+.historyTime {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* 响应式设计 */
+@media (max-width: 996px) {
+  .statNumber {
+    font-size: 1.5rem;
+  }
+  
+  .statIcon {
+    font-size: 2rem;
+  }
+  
+  .dailyDate {
+    min-width: 60px;
+    font-size: 0.8rem;
+  }
+  
+  .dailyValue {
+    font-size: 0.75rem;
+  }
+  
+  .pageItem,
+  .regionItem,
+  .historyItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .pageRank,
+  .regionRank {
+    margin-right: 0;
+  }
+}

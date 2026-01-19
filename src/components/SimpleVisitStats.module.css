@@ -1,0 +1,176 @@
+.simpleStats {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.simpleStats:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.statsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.headerIcon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.headerTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.expandButton {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.expandButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.statsContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+}
+
+.statItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.statIcon {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  min-width: 24px;
+  text-align: center;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.statNumber {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1890ff;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.statsFooter {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.detailLink {
+  color: #1890ff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.detailLink:hover {
+  color: #40a9ff;
+  text-decoration: none;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .simpleStats {
+    margin: 0.5rem;
+  }
+  
+  .statsContent {
+    padding: 0.75rem;
+  }
+  
+  .statItem {
+    padding: 0.75rem;
+  }
+  
+  .statIcon {
+    font-size: 1.1rem;
+  }
+  
+  .statNumber {
+    font-size: 1rem;
+  }
+  
+  .statLabel {
+    font-size: 0.75rem;
+  }
+}
+
+/* 动画效果 */
+.simpleStats {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 数字变化动画 */
+.statNumber {
+  transition: all 0.3s ease;
+}
+
+.statNumber:hover {
+  transform: scale(1.05);
+}

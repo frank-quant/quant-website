@@ -1,0 +1,9 @@
+{
+  "label": "n8n+链上监控+X监测=》跟单信号",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "tutorial/n8n-onchain-x-signal/intro"
+  }
+}
+

@@ -1,0 +1,347 @@
+/* Light Mode 访问统计样式 */
+
+[data-theme='light'] .advancedStats {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .advancedStats .statCard {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .advancedStats .statCard:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .advancedStats .statNumber {
+  color: #1890ff;
+}
+
+[data-theme='light'] .advancedStats .statLabel {
+  color: #666;
+}
+
+[data-theme='light'] .advancedStats .sectionHeader h4 {
+  color: #333;
+}
+
+[data-theme='light'] .advancedStats .toggleButton {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='light'] .advancedStats .toggleButton:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='light'] .advancedStats .pageItem {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .advancedStats .pageItem:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .advancedStats .pageName {
+  color: #333;
+}
+
+[data-theme='light'] .advancedStats .pagePath {
+  color: #666;
+}
+
+[data-theme='light'] .advancedStats .pageVisits {
+  color: #1890ff;
+}
+
+[data-theme='light'] .advancedStats .todayTrend h4,
+[data-theme='light'] .advancedStats .recentVisits h4 {
+  color: #333;
+}
+
+[data-theme='light'] .advancedStats .hourLabel {
+  color: #666;
+}
+
+[data-theme='light'] .advancedStats .visitItem {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .advancedStats .visitPage {
+  color: #333;
+}
+
+[data-theme='light'] .advancedStats .visitTime {
+  color: #666;
+}
+
+[data-theme='light'] .advancedStats .currentPage {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .advancedStats .currentLabel {
+  color: #666;
+}
+
+[data-theme='light'] .advancedStats .currentName {
+  color: #1890ff;
+}
+
+[data-theme='light'] .advancedStats .actionLink {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='light'] .advancedStats .actionLink:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: #333;
+}
+
+/* SimpleVisitStats Light Mode */
+[data-theme='light'] .simpleStats {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .simpleStats:hover {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='light'] .simpleStats .statsHeader {
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .simpleStats .headerTitle {
+  color: #333;
+}
+
+[data-theme='light'] .simpleStats .expandButton {
+  color: #666;
+}
+
+[data-theme='light'] .simpleStats .expandButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .simpleStats .statItem {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .simpleStats .statItem:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .simpleStats .statNumber {
+  color: #1890ff;
+}
+
+[data-theme='light'] .simpleStats .statLabel {
+  color: #666;
+}
+
+[data-theme='light'] .simpleStats .statsFooter {
+  background: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .simpleStats .detailLink {
+  color: #1890ff;
+}
+
+[data-theme='light'] .simpleStats .detailLink:hover {
+  color: #40a9ff;
+}
+
+/* Stats Page Light Mode */
+[data-theme='light'] .statsMain {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+[data-theme='light'] .statsMain .header {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .actionButton {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='light'] .statsMain .actionButton:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='light'] .statsMain .dangerButton {
+  background: rgba(255, 59, 48, 0.1);
+  border-color: rgba(255, 59, 48, 0.2);
+  color: #ff4d4f;
+}
+
+[data-theme='light'] .statsMain .dangerButton:hover {
+  background: rgba(255, 59, 48, 0.15);
+}
+
+[data-theme='light'] .statsMain .statCard {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .statCard:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .statsMain .statNumber {
+  color: #1890ff;
+}
+
+[data-theme='light'] .statsMain .statLabel {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .tabButton {
+  background: rgba(0, 0, 0, 0.1);
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='light'] .statsMain .tabButton:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='light'] .statsMain .activeTab {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.3);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .tabContent {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .statsMain .overviewSection h2,
+[data-theme='light'] .statsMain .pagesSection h2,
+[data-theme='light'] .statsMain .trendsSection h2,
+[data-theme='light'] .statsMain .historySection h2,
+[data-theme='light'] .statsMain .rawSection h2 {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .overviewCard {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .overviewCard h3 {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .barLabel {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .pageItem {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .pageItem:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .statsMain .pageName {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .pagePath {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .pageVisits {
+  color: #1890ff;
+}
+
+[data-theme='light'] .statsMain .trendCard {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .trendCard h3 {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .barValue {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .historyItem {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .historyItem:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .statsMain .historyPage {
+  color: #333;
+}
+
+[data-theme='light'] .statsMain .historyPath {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .historyTime {
+  color: #666;
+}
+
+[data-theme='light'] .statsMain .rawData {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='light'] .statsMain .rawData pre {
+  color: #333;
+}
+
+/* 确保数字在light mode下清晰可见 */
+[data-theme='light'] .statNumber {
+  color: #1890ff !important;
+  text-shadow: none;
+}
+
+[data-theme='light'] .pageVisits,
+[data-theme='light'] .currentName {
+  color: #1890ff !important;
+}
+
+[data-theme='light'] .pageRank {
+  color: #ff6b35 !important;
+}
+
+/* 增强对比度 */
+[data-theme='light'] .statLabel,
+[data-theme='light'] .pagePath,
+[data-theme='light'] .visitTime,
+[data-theme='light'] .currentLabel,
+[data-theme='light'] .hourLabel,
+[data-theme='light'] .barLabel,
+[data-theme='light'] .barValue {
+  color: #555 !important;
+}

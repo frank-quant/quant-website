@@ -1,0 +1,9 @@
+{
+  "label": "安装",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "tools/freqtrade/03 installation/intro"
+  }
+}
+

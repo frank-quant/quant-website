@@ -1,0 +1,377 @@
+.advancedStats {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #333;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.mainStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.statCard:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statNumber {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+  color: #1890ff;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  line-height: 1;
+  color: #666;
+}
+
+.popularPages {
+  margin-bottom: 1rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.sectionHeader h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.9;
+  color: #333;
+}
+
+.toggleButton {
+  background: rgba(255, 255, 255, 0.2);
+  color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.toggleButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.pageList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pageItem {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.pageItem:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.pageRank {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-right: 0.75rem;
+  min-width: 25px;
+}
+
+.pageInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageName {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.pagePath {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  color: #666;
+}
+
+.pageVisits {
+  opacity: 0.8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1890ff;
+}
+
+.todayTrend {
+  margin-bottom: 1rem;
+}
+
+.todayTrend h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.9;
+  color: #333;
+}
+
+.trendChart {
+  display: flex;
+  align-items: end;
+  gap: 2px;
+  height: 60px;
+  padding: 0.5rem 0;
+}
+
+.trendBar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bar {
+  width: 100%;
+  background: linear-gradient(to top, #1890ff, #40a9ff);
+  border-radius: 2px;
+  min-height: 4px;
+  transition: all 0.3s ease;
+}
+
+.hourLabel {
+  font-size: 0.7rem;
+  opacity: 0.6;
+  transform: rotate(-45deg);
+  white-space: nowrap;
+  color: #666;
+}
+
+.recentVisits {
+  margin-bottom: 1rem;
+}
+
+.recentVisits h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.9;
+  color: #333;
+}
+
+.visitList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.visitItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.visitPage {
+  font-weight: 500;
+  color: #333;
+}
+
+.visitTime {
+  opacity: 0.7;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.currentPage {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.currentLabel {
+  opacity: 0.8;
+  color: #666;
+}
+
+.currentName {
+  font-weight: 600;
+  color: #1890ff;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actionLink {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.actionLink:hover {
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  color: #333;
+  transform: translateY(-1px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .advancedStats {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .mainStats {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .statCard {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .statIcon {
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+  }
+  
+  .statInfo {
+    align-items: flex-start;
+  }
+  
+  .trendChart {
+    gap: 1px;
+  }
+  
+  .hourLabel {
+    font-size: 0.6rem;
+  }
+  
+  .pageItem {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .pageRank {
+    margin-right: 0;
+  }
+  
+  .pageInfo {
+    align-items: center;
+  }
+  
+  .visitItem {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.25rem;
+  }
+}
+
+/* 动画效果 */
+.advancedStats {
+  animation: slideInRight 0.6s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 脉冲动画 */
+.statNumber {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 趋势图动画 */
+.bar {
+  animation: growUp 0.8s ease-out;
+}
+
+@keyframes growUp {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--height);
+  }
+}

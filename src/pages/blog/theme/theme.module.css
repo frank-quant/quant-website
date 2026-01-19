@@ -1,0 +1,289 @@
+.themeMain {
+  padding: 2rem 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.themeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.themeInfo {
+  display: flex;
+  align-items: center;
+}
+
+.themeIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+.themeInfo h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.themeInfo p {
+  margin: 0 0 1rem 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.articleCount {
+  background: #f0f0f0;
+  color: #666;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.backButton {
+  background: #1890ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background: #40a9ff;
+  text-decoration: none;
+  color: white;
+}
+
+.articlesSection {
+  margin-bottom: 3rem;
+}
+
+.articlesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.articleCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.articleCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.articleMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.articleDate {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.articleTags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #f0f0f0;
+  color: #666;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.articleTitle {
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.articleTitle a {
+  color: #333;
+  text-decoration: none;
+}
+
+.articleTitle a:hover {
+  color: #1890ff;
+}
+
+.articleDescription {
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.articleFooter {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.readMore {
+  color: #1890ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.readMore:hover {
+  color: #40a9ff;
+  text-decoration: none;
+}
+
+.relatedThemes {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.relatedThemes h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.themesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.themeLink {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-left: 4px solid;
+  border-radius: 8px;
+  background: #f8f9fa;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.themeLink:hover {
+  background: #e9ecef;
+  text-decoration: none;
+  color: inherit;
+  transform: translateX(4px);
+}
+
+.themeLinkIcon {
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+}
+
+.themeLinkTitle {
+  flex: 1;
+  font-weight: 500;
+  color: #333;
+}
+
+.themeLinkCount {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.errorPage {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.errorPage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.errorPage p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .themeHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .themeInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .themeIcon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .articlesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .themesList {
+    grid-template-columns: 1fr;
+  }
+  
+  .articleMeta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .articleTags {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .themeInfo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .themeInfo p {
+    font-size: 1rem;
+  }
+  
+  .themeLink {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .themeLinkIcon {
+    margin-right: 0;
+  }
+}

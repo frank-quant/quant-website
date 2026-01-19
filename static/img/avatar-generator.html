@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frank Quant Avatar Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+        .avatar-container {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #25c2a0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            position: relative;
+        }
+        .inner-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .letter {
+            font-size: 40px;
+            font-weight: bold;
+            color: #25c2a0;
+        }
+        .instructions {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .download-btn {
+            background: #25c2a0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .download-btn:hover {
+            background: #1fa085;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>Frank Quant 头像生成器</h2>
+        <p>这个HTML文件用于生成PNG格式的头像占位符</p>
+        
+        <div class="avatar-container" id="avatar">
+            <div class="inner-circle">
+                <div class="letter">F</div>
+            </div>
+        </div>
+        
+        <p><strong>使用方法：</strong></p>
+        <ol>
+            <li>右键点击上面的头像</li>
+            <li>选择"另存为图片"或"保存图片"</li>
+            <li>保存为 <code>avatar.png</code></li>
+            <li>将文件放到 <code>static/img/</code> 目录下</li>
+        </ol>
+        
+        <p><strong>或者：</strong></p>
+        <ol>
+            <li>使用截图工具截取头像区域</li>
+            <li>保存为 <code>avatar.png</code></li>
+            <li>确保尺寸为 120x120 像素</li>
+        </ol>
+        
+        <p><strong>品牌色彩：</strong> #25c2a0 (Frank Quant 绿色)</p>
+    </div>
+
+    <script>
+        // 添加右键菜单保存功能
+        document.getElementById('avatar').addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('请右键选择"另存为图片"来保存头像');
+        });
+    </script>
+</body>
+</html>

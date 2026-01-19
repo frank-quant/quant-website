@@ -1,0 +1,225 @@
+.blogMain {
+  padding: 2rem 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.themesSection {
+  margin-bottom: 4rem;
+}
+
+.themesSection h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.themesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.themeCard {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.themeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.themeHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.themeIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.themeInfo {
+  flex: 1;
+}
+
+.themeInfo h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.themeInfo p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.articleCount {
+  background: #f0f0f0;
+  color: #666;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.themePreview {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.themePreview h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #999;
+  font-weight: 500;
+}
+
+.previewArticle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articleTitle {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.articleDate {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.statsSection {
+  margin-bottom: 2rem;
+}
+
+.statsSection h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.statCard {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  .themesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .themeHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .themeIcon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .articleCount {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .previewArticle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .articleTitle {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

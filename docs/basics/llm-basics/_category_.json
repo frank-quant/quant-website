@@ -1,0 +1,8 @@
+{
+  "label": "05 LLM基本概念",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "basics/llm-basics/intro"
+  }
+}

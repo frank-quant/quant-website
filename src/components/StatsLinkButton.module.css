@@ -1,0 +1,33 @@
+.statsButton {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.6rem 1rem;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800) !important;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  opacity: 0.9;
+}
+
+.statsButton:hover {
+  background: var(--ifm-color-emphasis-300);
+  text-decoration: none;
+  color: var(--ifm-color-emphasis-900) !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .statsButton {
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.85rem;
+  }
+}
+

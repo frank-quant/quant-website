@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "/static/img/",
+  "uriCallbacks": false,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
+}

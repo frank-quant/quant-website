@@ -1,0 +1,10 @@
+{
+  "label": "云服务器部署freqtrade",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "tutorial/cloud-deploy-freqtrade/intro"
+  }
+}
+
+

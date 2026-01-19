@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "ce863b66baddd94b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac7aa12b3849620d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baddf41b6206dacf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ai/picture-book-video/03-storyboard-generation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03-storyboard-generation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eff128409595ab2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f66978b21c4e30f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b2a742c335ac20e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e4127174be52f2f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "993d2658077fb2de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "right": {
+    "id": "89a25c3beca51051",
+    "type": "split",
+    "children": [
+      {
+        "id": "50ad85c1f8631de8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d5b885ea9b4139d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/strategy/K线形态策略/双十字星突破.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "双十字星突破 的反向链接列表"
+            }
+          },
+          {
+            "id": "419b3bad546b259e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/strategy/K线形态策略/双十字星突破.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "双十字星突破 的出链列表"
+            }
+          },
+          {
+            "id": "0b1f3395322af397",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "47d49b0cafd81b70",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/ai/picture-book-video/03-storyboard-generation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "03-storyboard-generation 的大纲"
+            }
+          },
+          {
+            "id": "cc9f543d0e7ae392",
+            "type": "leaf",
+            "state": {
+              "type": "wewrite-article-preview",
+              "state": {},
+              "icon": "pen-tool",
+              "title": "WeWrite预览器"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 409.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "wewrite:WeWrite": false
+    }
+  },
+  "active": "baddf41b6206dacf",
+  "lastOpenFiles": [
+    "build/Pasted image 20250812162335.png",
+    "build/CNAME.txt",
+    "build/blog/rss.xml",
+    "build/blog/atom.xml",
+    "build/blog/atom.css",
+    "build/blog/rss.css",
+    "build/blog/atom.xsl",
+    "build/blog/rss.xsl",
+    "build/sitemap.xml",
+    "build/index.html",
+    "build/blog/tags/tags/量化策略/index.html",
+    "build/img/undraw_docusaurus_tree.svg",
+    "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/undraw_docusaurus_react.svg",
+    "build/img/README.md",
+    "build/img/Pastedimage20250811210633.png",
+    "build/img/qrcode_for_gh_fbca3df6f259_344 (1).jpg",
+    "build/img/Pasted image 20260102191658.png",
+    "build/img/Pasted image 20260102203219.png",
+    "build/img/Pasted image 20260102203625.png",
+    "build/img/Pasted image 20260102175345.png",
+    "build/img/Pasted image 20260102175238.png",
+    "docs/ai/picture-book-video/02-story-generation.md",
+    "docs/ai/picture-book-video/01-environment-setup.md",
+    "docs/ai/picture-book-video/03-storyboard-generation.md",
+    "docs/ai/picture-book-video/intro.md",
+    "blog/LLM应用/2025-12-30-18个月从0到被Meta数十亿收购，Manus给中国AI创业者上了生动一课.md",
+    "docs/strategy/basic-strategies/Strategy001.md",
+    "docs/strategy/basic-strategies/Bandtastic.md",
+    "docs/live-trading/2025/2025-08-17-strategy-anf-review.md",
+    "docs/live-trading/live-trading-template.md",
+    "docs/live-trading/live-trading-methodology.md",
+    "docs/ai/n8n/intro.md",
+    "docs/tutorial/n8n-onchain-monitoring/intro.md",
+    "docs/ai/picture-book-video/08-optimization-publishing.md",
+    "docs/ai/picture-book-video/07-video-composition.md",
+    "docs/ai/picture-book-video/06-n8n-automation.md",
+    "docs/ai/picture-book-video/05-voice-generation.md",
+    "docs/ai/picture-book-video/04-video-generation.md",
+    "docs/ai/儿童绘本视频/08.md",
+    "docs/ai/儿童绘本视频/07.md",
+    "docs/ai/儿童绘本视频/06.md",
+    "docs/ai/儿童绘本视频/05.md",
+    "docs/ai/儿童绘本视频/04.md",
+    "docs/ai/儿童绘本视频/03.md",
+    "docs/ai/儿童绘本视频/02.md"
+  ]
+}
